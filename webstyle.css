@@ -1,0 +1,124 @@
+/* webstyle.css */
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #f3f3f3;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+header {
+  background-color: #9d6381;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+nav {
+  background-color: #e5cad4;
+  text-align: center;
+  padding: 10px 0;
+}
+nav a {
+  color: #333;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+nav a:hover {
+  background-color: #cda8b8;
+  color: white;
+  border-radius: 5px;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+article {
+  width: 70%;
+}
+aside {
+  width: 25%;
+  text-align: center;
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.card, .card1, .card2 {
+  background-color: white;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.skills {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.ll img {
+  width: 80px;
+  height: 80px;
+  border-radius: 15%;
+  margin-bottom: 10px;
+  border-right: 10px;
+}
+
+.pp {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.ppp {
+  width: 200px;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+}
+.ppp img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.ccc {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.ccc img{
+  width: 35px;
+  height: 35px;
+}
+
+.profile-pic img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+footer {
+  background-color: #cda8b8;
+  color: #444444;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+}
